@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewData["Title"] = "Dodaj produkt";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h2>Dodaj nowy produkt</h2>
+    <form id="productForm">
+        <label for="name">Nazwa:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="description">Opis:</label><br>
+        <textarea id="description" name="description" required></textarea><br>
+        <label for="price">Cena:</label><br>
+        <input type="number" id="price" name="price" step="0.01" required><br><br>
+        <button type="submit">Dodaj produkt</button>
+    </form>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.getElementById('productForm');
+
+            form.addEventListener('submit', async function (event) {
+                event.preventDefault();
+
+                const formData = new FormData(form);
+                const product = {
+                    name: formData.get('name'),
+                    description: formData.get('description'),
+                    price: parseFloat(formData.get('price'))
+                };
+
+                try {
+                    await saveProduct(product);
+                    alert("Produkt został dodany!");
+                    form.reset();
+                } catch (error) {
+                    console.error('Błąd przy dodawaniu produktu:', error);
+                    alert("Wystąpił błąd przy dodawaniu produktu. Spróbuj ponownie.");
+                }
+            });
+        });
+    </script>
+</body>
+</html>

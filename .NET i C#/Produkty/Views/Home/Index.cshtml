@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", async function () {
+            try {
+                const products = await fetchAllProducts();
+                if (products) {
+                    displayProducts(products);
+                } else {
+                    console.error("No products found.");
+                }
+            } catch (error) {
+                console.error("An error occurred while fetching and displaying products:", error);
+            }
+        });
+
+    </script>
+</head>
+<body>
+    <div class="products">
+    </div>
+
+
+</body>
+</html>

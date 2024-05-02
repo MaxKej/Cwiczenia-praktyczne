@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "Modyfikuj produkt";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h2>Zmodyfikuj produkt</h2>
+    <form id="productForm">
+        <label for="id">ID:</label><br>
+        <input type="number" id="id" name="id" required><br>
+        <label for="name">Nazwa:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="description">Opis:</label><br>
+        <textarea id="description" name="description" required></textarea><br>
+        <label for="price">Cena:</label><br>
+        <input type="number" id="price" name="price" step="0.01" required><br><br>
+        <button type="submit">Zmodyfikuj</button>
+    </form>
+
+    <div class="products">
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", async function () {
+            try {
+                const products = await fetchAllProducts();
+                if (products) {
+                    displayProductsToModify(products);
+                } else {
+                    console.error("No products found.");
+                }
+            } catch (error) {
+                console.error("An error occurred while fetching and displaying products:", error);
+            }
+        });
+
+        document.getElementById("productForm").addEventListener("submit", async function (event) {
+            event.preventDefault();
+
+            const id = document.getElementById("id").value;
+            const name = document.getElementById("name").value;
+            const description = document.getElementById("description").value;
+            const price = document.getElementById("price").value;
+
+            const updatedProduct = {
+                id: id,
+                name: name,
+                description: description,
+                price: price
+            };
+
+            try {
+                await updateProduct(updatedProduct);
+                location.reload();
+            } catch (error) {
+                console.error("An error occurred while updating product:", error);
+            }
+        });
+    </script>
+</body>
+</html>

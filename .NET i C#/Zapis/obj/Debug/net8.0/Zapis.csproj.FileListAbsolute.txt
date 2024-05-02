@@ -1,0 +1,14 @@
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Zapis\bin\Debug\net8.0\Zapis.exe
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Zapis\bin\Debug\net8.0\Zapis.deps.json
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Zapis\bin\Debug\net8.0\Zapis.runtimeconfig.json
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Zapis\bin\Debug\net8.0\Zapis.dll
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Zapis\bin\Debug\net8.0\Zapis.pdb
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Zapis\obj\Debug\net8.0\Zapis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Zapis\obj\Debug\net8.0\Zapis.AssemblyInfoInputs.cache
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Zapis\obj\Debug\net8.0\Zapis.AssemblyInfo.cs
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Zapis\obj\Debug\net8.0\Zapis.csproj.CoreCompileInputs.cache
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Zapis\obj\Debug\net8.0\Zapis.dll
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Zapis\obj\Debug\net8.0\refint\Zapis.dll
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Zapis\obj\Debug\net8.0\Zapis.pdb
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Zapis\obj\Debug\net8.0\Zapis.genruntimeconfig.cache
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Zapis\obj\Debug\net8.0\ref\Zapis.dll

@@ -1,0 +1,14 @@
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Pole\bin\Debug\net8.0\Pole.exe
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Pole\bin\Debug\net8.0\Pole.deps.json
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Pole\bin\Debug\net8.0\Pole.runtimeconfig.json
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Pole\bin\Debug\net8.0\Pole.dll
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Pole\bin\Debug\net8.0\Pole.pdb
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Pole\obj\Debug\net8.0\Pole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Pole\obj\Debug\net8.0\Pole.AssemblyInfoInputs.cache
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Pole\obj\Debug\net8.0\Pole.AssemblyInfo.cs
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Pole\obj\Debug\net8.0\Pole.csproj.CoreCompileInputs.cache
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Pole\obj\Debug\net8.0\Pole.dll
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Pole\obj\Debug\net8.0\refint\Pole.dll
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Pole\obj\Debug\net8.0\Pole.pdb
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Pole\obj\Debug\net8.0\Pole.genruntimeconfig.cache
+C:\Users\4maxk\Desktop\ecom\.NET i C#\Pole\obj\Debug\net8.0\ref\Pole.dll
